@@ -1,0 +1,364 @@
+body {
+    background: rgb(79,58,180);
+    background: radial-gradient(circle, rgba(79,58,180,1) 0%, rgba(200,29,253,1) 70%, rgba(88,69,252,1) 100%);
+    background-size: cover;   
+    background-position: center;  
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+/* Navbar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 1000;
+    background-color: #211C84;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Custom Navbar */
+.custom-navbar {
+    background-color: #0a0575;
+}
+
+/* Navbar Brand (Logo) */
+.custom-navbar .navbar-brand {
+    font-weight: bold;
+    color: rgb(142, 218, 241);
+    font-size: 24px;
+}
+
+/* Navbar Items */
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-nav .nav-item {
+    list-style: none;
+}
+
+.navbar-nav .nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(142, 218, 241);
+}
+
+/* Responsive Navbar */
+@media (max-width: 991px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .navbar-toggler {
+        border: none;
+        background: none;
+        outline: none;
+        font-size: 24px;
+        color: white;
+    }
+
+    .navbar-collapse {
+        background-color: #0a0575;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-link {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+
+.img1 {
+    position: relative;
+    height: 400px;
+    width: 400=0px;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 150px;
+
+}.hero-section {
+    background: rgb(37,5,195);
+    background: linear-gradient(90deg, rgba(37,5,195,1) 52%, rgba(0,255,244,1) 100%);
+    margin-top: 20px;
+    
+    padding: 5rem 0;
+    
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-image {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+#mysk {
+    text-align: center;
+}
+
+#myimg {
+    position: relative;
+    height: 600px;
+    width: 450px;
+    margin-left: auto;
+}
+
+
+
+#contain {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 200px;
+    text-align: center;
+
+}
+#centered {
+    margin-top: 10px;
+    background: rgb(0,244,233);
+    background: radial-gradient(circle, rgba(0,244,233,1) -7484%, rgba(37,5,195,1) 0%, rgba(0,255,244,1) 92%);
+}
+
+
+#SHYAM {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  
+}
+
+#icon-grid h3 {
+    font-size: 1.5rem; /* Increase heading size */
+  }
+  
+#icon-grid p {
+    font-size: 1.2rem; /* Increase paragraph text size */
+  }
+  
+#icon-grid svg {
+    width: 5em; /* Adjust icon size proportionally */
+    height: 5em;
+  }
+.container {
+    padding: 40px;
+    margin-bottom: 100px;
+}
+
+/* Grid Container */
+.grid {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+/* Default Layout: 2 Rows, 4 Columns */
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, auto);
+    }
+}
+
+/* Adjust for Tablets (2 Columns) */
+@media (max-width: 1023px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+}
+
+/* Adjust for Mobile (Single Column) */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Card Styling */
+.item {
+    background: rgba(201, 164, 214, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 5px 15px rgba(95, 183, 238, 0.5);
+    width: 100%;
+    max-width: 250px;
+}
+
+/* Hover Effects */
+.item:hover {
+    transform: scale(1.05);
+    background: rgba(227, 194, 239, 0.7);
+}
+
+/* Icons */
+.item i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* Text Styles */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+p {
+    font-size: 1rem;
+}
+
+#right {
+    margin-top: 150px;
+    margin-bottom: 180px;
+}
+
+.iconic {
+    margin-top: 180px;
+}
+
+#certhead {
+   text-align: center;
+}
+
+.certificates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Common styling for all certificate items */
+.certificate-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+@keyframes fadeInOut {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.animate {
+    animation: fadeInOut 1s linear 2;
+}
+/* Styling for the text details */
+.certificate-details {
+    flex: 1;
+    text-align: left;
+    color: white;
+}
+
+/* Styling for images */
+.certificate-item img {
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Make the second (middle) certificate right-aligned */
+.middle {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+/* Reverse only the second certificate layout */
+
+
+.middle .certificate-details {
+    order: 1; /* Keep text on the left side of the div */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .certificate-item {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .middle {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .certificate-item img {
+        width: 80%;
+        max-width: 400px;
+    }
+}
+
+
+
+
+@media (max-width: 767.98px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .hero-image {
+        margin: 2rem auto 0;
+    }
+}
+
+.footer {
+    background: rgb(37,5,195);
+    background: linear-gradient(90deg, rgba(37,5,195,1) 52%, rgb(132, 2, 162) 100%);
+    margin-bottom: -30px;
+}

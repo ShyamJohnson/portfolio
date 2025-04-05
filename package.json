@@ -1,0 +1,13 @@
+{
+  "name": "shyam_portfolio_website",
+  "version": "1.0.0",
+  "description": "My Own Portfolio",
+  "main": "index.js",
+  
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shya, Johnson",
+  "license": "ISC"
+}
