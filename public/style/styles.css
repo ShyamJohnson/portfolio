@@ -358,7 +358,42 @@ p {
 }
 
 .footer {
-    background: rgb(37,5,195);
     background: linear-gradient(90deg, rgba(37,5,195,1) 52%, rgb(132, 2, 162) 100%);
-    margin-bottom: -30px;
+    padding: 20px 10px; /* added padding */
+    margin-top: 60px;    /* create space from the content above */
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .footer {
+        padding: 30px 15px;
+        margin-top: 40px;
+    }
+
+    .container {
+        margin-bottom: 120px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .hero-image {
+        margin: 2rem auto 0;
+    }
+
+    #myimg {
+        height: 300px;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+        border-radius: 10px;
+        object-fit: cover;
+    }
 }
