@@ -378,10 +378,21 @@ p {
 
 .footer {
     background: linear-gradient(90deg, rgba(37,5,195,1) 52%, rgb(132, 2, 162) 100%);
-    padding: 20px 10px; /* added padding */
-    margin-top: 60px;    /* create space from the content above */
+    padding: 20px 10px;
+    margin-top: 60px;
     text-align: center;
-}
+  }
+  
+  #foot ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* space between icons */
+    padding: 0;
+    margin-top: 10px;
+    margin-right: 30px;
+  }
+
+
 @media (max-width: 768px) {
     .footer {
         padding: 30px 15px;
