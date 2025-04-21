@@ -271,6 +271,25 @@ p {
     padding: 20px;
 }
 
+@media (max-width: 768px) {
+
+    #SHYAM {
+        opacity: 0%;
+    }
+    
+
+    .container {
+        margin-bottom: 120px;
+    }
+
+    #foot {
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+    }
+}
+
 /* Common styling for all certificate items */
 .certificate-item {
     display: flex;
